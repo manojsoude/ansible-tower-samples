@@ -1,0 +1,5 @@
+- name: list files
+  hosts: all
+  tasks:
+    - name: Hello Message
+      command: ls -la
